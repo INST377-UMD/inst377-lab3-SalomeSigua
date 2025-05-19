@@ -1,0 +1,109 @@
+/* Body and Font */
+body {
+    background-color: #fcefe3;
+    font-family: "Trebuchet MS", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header & Footer Styling */
+.bar {
+    background-color: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+#main-nav ul {
+    list-style-type: none;
+    text-align: center;
+    background-color: #b03060;
+    padding: 10px;
+    margin: 0;
+}
+
+#main-nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+#main-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#main-nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Layout */
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Main Content */
+.main-content {
+    width: 70%;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-right: 10px;
+    border: 2px dashed #b03060;
+    border-radius: 15px;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 25%;
+    background-color: #c6f6c6;
+    padding: 20px;
+    border: 2px solid #009e60;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+}
+
+.sidebar:hover {
+    background-color: #b2fab2;
+}
+
+/* Form */
+form label {
+    display: block;
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+form input[type="text"],
+form select {
+    padding: 6px;
+    margin-top: 5px;
+    width: 80%;
+    transition: width 0.3s;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form input[type="text"]:focus {
+    width: 100%;
+    border-color: #ff69b4;
+}
+
+form input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #6a5acd;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #483d8b;
+}

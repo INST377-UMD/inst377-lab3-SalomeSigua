@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Salome's Gym Tracker </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="bar">
+        <h1>Welcome to Salome's Gym Tracker </h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav id="main-nav">
+        <ul>
+            <li><a href="https://www.myfitnesspal.com" target="_blank">Nutrition</a></li>
+            <li><a href="https://www.bodybuilding.com" target="_blank">Workouts</a></li>
+            <li><a href="https://www.youtube.com/c/ChloeTing" target="_blank">Videos</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Layout -->
+    <div class="container">
+        <!-- Main Content -->
+        <div class="main-content">
+            <h2>Log Your Workout </h2>
+            <form>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="workout">Today's Focus:</label>
+                <select id="workout" name="workout">
+                    <option value="legs">Leg Day </option>
+                    <option value="arms">Arm Day </option>
+                    <option value="cardio">Cardio </option>
+                </select>
+
+                <input type="submit" value="Log Workout">
+            </form>
+        </div>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2>Fitness Tips </h2>
+            <ul>
+                <li>Hydrate throughout your workout </li>
+                <li>Don't skip your warm-up </li>
+                <li>Fuel your body with good food </li>
+                <li>Rest is just as important as reps </li>
+            </ul>
+            <p style="font-style: italic;">“The body achieves what the mind believes.”</p>
+        </aside>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bar">
+        <p>&copy; 2025 Salome Sigua | INST377 | Hustle hard, rest harder </p>
+    </footer>
+
+</body>
+</html>
